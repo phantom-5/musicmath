@@ -99,7 +99,7 @@ async function compose(){
     var el=document.getElementById('playing')
     el.innerHTML='Now Playing'
   for(i=0;i<values_global_lis.length;i++){
-      var delay=math.random([500,1000])
+      var delay=math.random([800,1500])
       var num=math.mod(values_global_lis[i],10)
       if(num>10){swal("Sorry! Number Exceeded Limit",values_global_lis[i].toString()
       )
