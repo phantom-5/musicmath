@@ -1,0 +1,79 @@
+body, html {
+    height: 100%; 
+}
+h1 {
+  font-size: 300%;
+}
+
+#whoop {
+ text-align: center;
+ width:50%;
+ margin:0 auto;
+ margin-top:4%;
+}
+
+.btnc {
+  border: 5px solid hsl(210, 29%, 24%);
+  color: #0288d1;
+  display: block;
+  font-family: 'trebuchet ms';
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  width:400px;
+  margin:0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #0288d1;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*end of captain-Hook*/
+ 
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #ffffff90;
+  padding: 5px; 
+  width: 60%;
+  height: 10%; 
+}
+#rcorners2 {
+  border-radius: 25px;
+  background: #00000090;
+  padding-top: 1px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 60%;
+  height: 12%;  
+}
+.formstuff {
+  width: 400px;
+  height: 200px;
+}
+
+.bg {
+    background-image: url("mainbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

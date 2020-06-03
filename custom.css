@@ -1,0 +1,65 @@
+body, html {
+    height: 100%; 
+}
+.bg {
+    background-image: url("mainbg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff90;
+    padding: 5px; 
+    width: 60%;
+    height: 10%; 
+}
+.formstuff {
+    width: 50%;
+    height: 200px;
+}
+.formstuff2 {
+    width: 50%;
+    height: 100px;
+    visibility: hidden;
+}
+.formstuff3 {
+    width: 50%;
+    height: 50px;
+    visibility: hidden;
+}
+.visuals{
+    width:50%;
+    margin:0 auto;
+}
+.sa{
+    color:#18ffff
+}
+.sb{
+    color:#b2ff59
+}
+.sc{
+    color:#ff5252
+}
+.sd{
+    color:#ffab40
+}
+.se{
+    color:#ffff00
+}
+.sf{
+    color:#ff5252
+}
+.sg{
+    color:#ff4081
+}
+.sh{
+    color:#e040fb
+}
+.si{
+    color:#7c4dff
+}
+.sj{
+    color:#40c4ff
+}

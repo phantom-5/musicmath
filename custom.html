@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <META charset='utf-8'>
+            <meta name="viewport" content="width=1024">
+            <LINK rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <LINK rel="stylesheet" href="custom.css">
+            <SCRIPT src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></SCRIPT>
+            <SCRIPT src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></SCRIPT>
+            <SCRIPT src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></SCRIPT>
+            <!--<script type="text/javascript" src="/eel.js"></script>-->
+            
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.0.1/math.js'></script>
+            <script src="custom.js"></script> 
+            
+            
+        <TITLE>
+            Custom
+        </TITLE>
+    </HEAD>
+<BODY class='bg text-black'>
+<br>
+<center><H1 class='display-4' id='rcorners1'>Custom Formula</H1></center><br>
+<center>
+<form class="form-control formstuff bg-dark">
+    <label class='font-weight-bold text-info' id='int_status'>Generate</label>
+    <div class="input-group">
+    <input type="text" id="seq" class="form-control bg-dark text-light" required placeholder="Formula">
+    <span class="input-group-addon">&nbsp;</span>
+    <button type="button" class="form-control btn-outline-light text-dark" onclick='genF()'>Verify</button>
+    </div><br>
+    <button type="button"  class="form-control btn-block btn-info shadow" onclick='compose()'><font color="white" >COMPOSE</font></button>
+    <button type="button"  class="form-control btn-block btn-danger shadow" onclick='exit()'><font color="white" >EXIT</font></button>
+</form></center>
+<center>
+<form class='form-control formstuff2 bg-dark' id='status_form'>
+    <textarea class='form-control lead text-light bg-dark' id='status'></textarea>
+</form></center><br>
+
+<center>
+<form class='form-control formstuff3 bg-dark' id='glowForm'>
+  <div class='input-group'>
+  <label class='font-weight-bold text-warning' id='playing'></label>
+  <div class='input-group visuals form-control'>
+  <div class="spinner-grow sa" id='g0' style='visibility: hidden;'><span class='text-dark blockquote'>0</span></div>
+  <div class="spinner-grow sb" id='g1' style='visibility: hidden;'><span class='text-dark blockquote'>1</span></div>
+  <div class="spinner-grow sc" id='g2' style='visibility: hidden;'><span class='text-dark blockquote'>2</span></div>
+  <div class="spinner-grow sd" id='g3' style='visibility: hidden;'><span class='text-dark blockquote'>3</span></div>
+  <div class="spinner-grow se" id='g4' style='visibility: hidden;'><span class='text-dark blockquote'>4</span></div>
+  <div class="spinner-grow sf" id='g5' style='visibility: hidden;'><span class='text-dark blockquote'>5</span></div>
+  <div class="spinner-grow sg" id='g6'style='visibility: hidden;'><span class='text-dark blockquote'>6</span></div>
+  <div class="spinner-grow sh" id='g7' style='visibility: hidden;'><span class='text-dark blockquote'>7</span></div>
+  <div class="spinner-grow si" id='g8' style='visibility: hidden;'><span class='text-dark blockquote'>8</span></div>
+  <div class="spinner-grow sj" id='g9' style='visibility: hidden;'><span class='text-dark blockquote'>9</span></div>
+ </div>
+ </div>
+</form></center>
+<audio style='visibility: hidden;' id='a0'>
+    <source src="Piano/p (0).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a1'>
+    <source src="Piano/p (1).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a2'>
+    <source src="Piano/p (2).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a3'>
+    <source src="Piano/p (3).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a4'>
+    <source src="Piano/p (4).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a5'>
+    <source src="Piano/p (5).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a6'>
+    <source src="Piano/p (6).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a7'>
+    <source src="Piano/p (7).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a8'>
+    <source src="Piano/p (8).wav" type="audio/wav">
+</audio>
+<audio style='visibility: hidden;' id='a9'>
+    <source src="Piano/p (9).wav" type="audio/wav">
+</audio>
+
+</BODY>
+</HTML>
