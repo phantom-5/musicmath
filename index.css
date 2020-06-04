@@ -9,7 +9,7 @@ h1 {
  text-align: center;
  width:50%;
  margin:0 auto;
- margin-top:2%;
+ margin-top:3%;
 }
 
 .btnc {
@@ -20,7 +20,7 @@ h1 {
   font-size: 2rem;
   letter-spacing: 0.1rem;
   padding: 1rem;
-  width:400px;
+  width:40%;
   margin:0 auto;
   text-decoration: none;
   text-transform: uppercase;
