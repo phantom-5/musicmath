@@ -1,6 +1,8 @@
 var isMobile = window.orientation > -1;
+//console.log(isMobile)
 if(isMobile){
-    swal("Mobile Device Detected!","Device May Play Slower,Try in Desktop",'warning')
+    window.onload=function(){
+    swal("Mobile Device Detected!","Device May Play Slower,Try in Desktop",'warning')}
 }
 
 function custom(){
