@@ -1,10 +1,10 @@
-swal("In the web version use 'p' instead of 'n'","warning");
 var prev_glow_id=''
 var values_global_lis=[]
 var idlis=[]
 var qflag=0;
 
 window.onload=function(){
+    swal("In the web version use 'p' instead of 'n'","Ex- 2*p-7/p \n Check guide for more details","warning");
     for(i=0;i<10;i++){
         var id='Piano/p ('+(i+1).toString()+').ogg'
         idlis.push( new Howl({src:[id]}))
@@ -88,7 +88,7 @@ function genF(){
     else{ el.innerHTML='Failed: '+'Invalid Expression, Please Follow Instructions.'}
     var status_form=document.getElementById('status_form')
     status_form.style.visibility='visible'
-   
+
 }
 
 function exit(){
