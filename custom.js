@@ -1,3 +1,4 @@
+swal("In the web version use 'p' instead of 'n'","warning");
 var prev_glow_id=''
 var values_global_lis=[]
 var idlis=[]
@@ -8,7 +9,6 @@ window.onload=function(){
         var id='Piano/p ('+(i+1).toString()+').ogg'
         idlis.push( new Howl({src:[id]}))
     }
-    swal("In the web version use 'p' instead of 'n'","warning");
 }
 
 Promise
