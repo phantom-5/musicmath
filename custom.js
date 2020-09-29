@@ -8,6 +8,7 @@ window.onload=function(){
         var id='Piano/p ('+(i+1).toString()+').ogg'
         idlis.push( new Howl({src:[id]}))
     }
+    swal("In the web version use 'p' instead of 'n'","warning");
 }
 
 Promise
